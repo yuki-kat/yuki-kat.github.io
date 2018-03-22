@@ -205,6 +205,16 @@ h5 {
   text-align: center;
 }
 
+@media (min-width: 1200px) {
+  .staff-names {
+    margin-right: 50px;
+  }
+
+  h5 {
+    margin-right: 50px;
+  }
+}
+
 @media (max-width: 600px) {
   .hero-text-box {
     padding: 0;
