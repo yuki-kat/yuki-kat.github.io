@@ -1,0 +1,110 @@
+/* ---- reset ---- */
+
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif, Arial, Helvetica;
+}
+
+/* canvas {
+  display: block;
+  vertical-align: bottom;
+} */
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: linear-gradient(to right, rgba(255, 0, 0, .7), rgba(255,0,0,7));
+
+  background-image: url("./img/lights.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+#header {
+  background-color:rgb(0, 0, 0, 0.2)
+}
+
+#logo {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  list-style-type: none;
+}
+
+#navigation li a {
+  margin-left: 30px;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 15px;
+  text-decoration: none; 
+  margin-bottom: 30px;
+}
+
+
+
+h1 {
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+h2 {
+  color: white;
+  margin-left: 1rem;
+  margin-top: 15px;
+}
+
+
+
+/* #ECEFF1 use this color for the body */
