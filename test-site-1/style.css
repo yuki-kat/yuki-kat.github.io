@@ -1,0 +1,206 @@
+
+*:focus {
+    outline: none;
+  }
+  body{
+        background: -webkit-gradient(linear, left top, right top, from(#E43BA0), to(#8566CE)) fixed;
+      font-family: 'Raleway', sans-serif;
+  }
+  .container {
+      position: relative;
+      width: 1000px;
+      height:550px;
+      background: #fff;
+      margin: auto;
+      margin-top: 3%;
+      border-radius: 5px;
+      box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  
+  .left-bar {
+      position: absolute;
+      width: 300px;
+      height: 550px;
+      background: #EB5BBA;
+      border-radius: 5px 0 0 5px;
+  }
+  .left-bar img {
+      height: 150px;
+      width: 160px;
+      border-radius: 50%;
+      margin: 50px ;
+      margin-left: 70px;
+      border: 3px solid #fff;
+  }
+  .left-bar h1{
+      margin-top: 5px;
+      font-size: 1.7rem;
+      color: #fff;
+      text-align: center;
+  }
+  .left-bar h2 {
+      text-align: center;
+      color: #fff;
+      font-size: 1.2rem;
+  }
+  .left-bar h3 {
+      font-size: 1rem;
+      text-align: center;
+      line-height: 8px;
+  }
+  .login {
+      float: right;
+      height: 550px;
+      width: 700px;
+      border-radius: 0 5px 5px 0;
+  }
+  .group 			  { 
+    position:relative; 
+    margin-left: 20%;
+  }
+  input 				{
+    font-size:20px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:420px;
+    border:none;
+    border-bottom:1.2px solid #6A1AD4;
+  }
+  input:focus {
+   outline:none;
+   }
+   input[type=email]{
+       margin-top: 20%;
+   }
+   input[type=password] {
+       margin-top: 5%;
+   }
+   label {
+    color:#9F9DD6; 
+    font-size:20px;
+    font-weight:700;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  input:focus ~ label, input:valid ~ label {
+    top:-20px;
+    font-size:14px;
+    color:#5264AE;
+  }
+  .bar { 
+      position:relative; display:block; width:435px; 
+  }
+  .bar:before, .bar:after 	{
+    content:'';
+    height:2px; 
+    width:0;
+    bottom:1px; 
+    position:absolute;
+    background:#5264AE; 
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  .bar:before {
+    left:50%;
+  }
+  .bar:after {
+    right:50%; 
+  }
+  input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width:50%;
+  }
+  
+  .highlight {
+    position:absolute;
+    height:60%; 
+    width:200px; 
+    top:25%; 
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+  }
+  input:focus ~ .highlight {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+  }
+  
+  button {
+      padding: 15px 60px;
+      border: none;
+      border-radius: 30px;
+      background-color: #AB4CFF;
+      color: #fff;
+      margin-left: 20%;
+      margin-top: 8%;
+      cursor: pointer;
+  }
+  .forgot {
+      color: #9F9DD6;
+      margin-left: 20px;
+      cursor: pointer;
+  }
+  /*==========ANIMATIONS======*/
+  @-webkit-keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  @-moz-keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  @keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  
+  .footer-img {
+      position: relative;
+     width: 450px;
+     float: right;
+     margin-top: -27px;
+  
+  }
+  .login h4 {
+      position: absolute;
+      margin-top: 19%;
+      margin-left: 45%;
+      color: #fff;
+  }
+  .fa-heart{
+      color: red;
+  }
+  .social {
+      margin-top: 40%;
+  }
+  .fa-facebook-square {
+      font-size: 30px;
+      color: #fff;
+      margin-left: 15px;
+  }
+  .fa-twitter-square {
+      font-size: 30px;
+      color: #fff;
+      margin-left: 20px;
+  }
+  .fa-google-plus-square {
+      font-size: 30px;
+      color: #fff;
+      margin-left: 25px;
+  }
+  .fa-linkedin {
+      font-size: 30px;
+      color: #fff;
+      margin-left: 30px;
+  }
+  .fa-instagram{
+      font-size: 30px;
+      color: #fff;
+      margin-left: 35px;
+  }
